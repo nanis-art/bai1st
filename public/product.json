@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "vivo x100",
+    "idcategory": 1
+  },
+  {
+    "id": 2,
+    "name": "vivo x100s",
+    "idcategory": 1
+  },
+  {
+    "id": 3,
+    "name": "vivo x100s Pro",
+    "idcategory": 1
+  },
+  {
+    "id": 4,
+    "name": "vivo x100 Pro",
+    "idcategory": 1
+  },
+  {
+    "id": 5,
+    "name": "vivo x100 Ultra",
+    "idcategory": 1
+  }
+]
