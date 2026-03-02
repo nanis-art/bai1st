@@ -1,35 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState, useEffect } from 'react';
+import './App.css';
+import LetterForm from './components/LetterForm';
+import LetterList from './components/LetterList';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [letters, setLetters] = useState([]);
+  useEffect(() => {
+    console.log("App mounted - lần render đầu tiên");
+  }, []);
+  useEffect(() => {
+    console.log("Letters updated:", letters);
+  }, [letters]);
+
+  const addLetter = (content) => {
+    setLetters([
+      ...letters,
+      {
+        id: Date.now(),
+        content,
+      },
+    ]);
+  };
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="app-container">
+      <h1 className="app-title">Letter Box</h1>
+      <div className="form-section">
+        <LetterForm onAdd={addLetter} />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <hr className="divider" />
+      <div className="list-section">
+        <LetterList letters={letters} />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
