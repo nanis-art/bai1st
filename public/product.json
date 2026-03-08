@@ -1,27 +1,117 @@
 [
   {
     "id": 1,
-    "name": "vivo x100",
+    "name": "Vivo X200",
     "idcategory": 1
   },
   {
     "id": 2,
-    "name": "vivo x100s",
+    "name": "Vivo X200 Pro Mini",
     "idcategory": 1
   },
   {
     "id": 3,
-    "name": "vivo x100s Pro",
+    "name": "Vivo X200 Pro",
     "idcategory": 1
   },
   {
     "id": 4,
-    "name": "vivo x100 Pro",
+    "name": "Vivo X200s",
     "idcategory": 1
   },
   {
     "id": 5,
-    "name": "vivo x100 Ultra",
+    "name": "Vivo X200s Pro",
     "idcategory": 1
+  },
+  {
+    "id": 6,
+    "name": "Vivo X200 Ultra",
+    "idcategory": 1
+  },
+  {
+    "id": 7,
+    "name": "Vivo iQOO 15",
+    "idcategory": 1
+  },
+  {
+    "id": 8,
+    "name": "Vivo iQOO 15 Ultra",
+    "idcategory": 1
+  },
+  {
+    "id": 9,
+    "name": "Vivo iQOO Neo 11",
+    "idcategory": 1
+  },
+  {
+    "id": 10,
+    "name": "Vivo iQOO Neo 11 Pro",
+    "idcategory": 1
+  },
+  {
+    "id": 11,
+    "name": "Vivo iQOO Z11",
+    "idcategory": 1
+  },
+  {
+    "id": 12,
+    "name": "Vivo iQOO Z11 Turbo",
+    "idcategory": 1
+  },
+  {
+    "id": 13,
+    "name": "Củ sạc nhanh Vivo 80W FlashCharge",
+    "idcategory": 2
+  },
+  {
+    "id": 14,
+    "name": "Củ sạc siêu nhanh Vivo 120W FlashCharge",
+    "idcategory": 2
+  },
+  {
+    "id": 15,
+    "name": "Cáp sạc Vivo Type-C to Type-C 6A",
+    "idcategory": 2
+  },
+  {
+    "id": 16,
+    "name": "Ốp lưng tản nhiệt từ tính iQOO 15/15Ultra",
+    "idcategory": 3
+  },
+  {
+    "id": 17,
+    "name": "Ốp lưng chống sốc viền TPU Vivo X200",
+    "idcategory": 3
+  },
+  {
+    "id": 18,
+    "name": "Kính cường lực Corning Gorilla Glass iQOO 15",
+    "idcategory": 4
+  },
+  {
+    "id": 19,
+    "name": "Kính cường lực Gorilla Glass Victus Vivo X200",
+    "idcategory": 4
+  },
+  {
+    "id": 20,
+    "name": "Sạc dự phòng Vivo 10000mAh 44W FlashCharge",
+    "idcategory": 5
+  },
+  {
+    "id": 21,
+    "name": "Sạc dự phòng iQOO PowerBank 20000mAh",
+    "idcategory": 5
+  },
+  {
+    "id": 22,
+    "name": "Quạt tản nhiệt sò lạnh iQOO Cooling Back Clip 2 Pro",
+    "idcategory": 7
+  },
+  {
+    "id": 23,
+    "name": "Nút bấm chơi game iQOO Lightning Gamepad",
+    "idcategory": 7
   }
 ]

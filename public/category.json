@@ -1,10 +1,30 @@
 [
   {
     "id": 1,
-    "name": "dien thoai"
+    "name": "Điện thoại"
   },
   {
     "id": 2,
-    "name": "linh kien"
+    "name": "Sạc & Cáp"
+  },
+  {
+    "id": 3,
+    "name": "Ốp lưng"
+  },
+  {
+    "id": 4,
+    "name": "Miếng dán màn hình"
+  },
+  {
+    "id": 5,
+    "name": "Sạc dự phòng"
+  },
+  {
+    "id": 6,
+    "name": "Tai nghe"
+  },
+  {
+    "id": 7,
+    "name": "Tiện ích khác"
   }
 ]
