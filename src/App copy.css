@@ -1,0 +1,19 @@
+:root{
+  background-color: rgb(84, 210, 210);
+  display: flex;
+  justify-content: center;
+}
+.app-container{
+  background-color: white;
+  color: black;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px 5px gray;
+}
+.list-section{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
